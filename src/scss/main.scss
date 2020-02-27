@@ -1,0 +1,21 @@
+@import "_normalize";
+@import "_variables";
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $yellow;
+  background: $violet;
+}
+
+.test {display: flex;}
+.item {flex:1; border: 1px solid red; margin:1px;}
+img {max-width: 100%; height: auto;}
+span {color:red;}
